@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <title>cause effect app</title>
+</head>
+<body>
+
+  <section class="container">
+
+<div class="list-pane">
+  <h2>Person Names</h2>
+  <ul id="nameList">
+    <li onclick="showDetails('John')">John</li>
+    <li onclick="showDetails('Alice')">Alice</li>
+    <li onclick="showDetails('Bob')">Bob</li>
+    <!-- Add more names as needed -->
+  </ul>
+</div>
+
+<div class="detail-pane" id="detailPane">
+  <h2>Person Details</h2>
+  <p>Select a name to view details.</p>
+</div>
+  </section>
+
+<!-- javascript link -->
+<script src="app.js"></script>
+
+</body>
+</html>
